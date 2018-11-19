@@ -28,13 +28,6 @@ class AlbumList extends Component {
         return this.state.albums.map((album) => (
             <AlbumDetail key={album.title} album={album} />
         ));
-
-
-        // const album = this.state.albums[0];
-        // if (!album) {
-        //     return [];
-        // }
-        // return <AlbumDetail key={album.title} album={album} />;
     }
 }
 
